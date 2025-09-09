@@ -30,20 +30,27 @@ public class HelloWorld {
 		(If there are so many multiples that they go to an additional  line, that is ok.)  
 		*/
 
-
+		//USER INPUT
+		System.out.println();
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter your name: ");
+		System.out.print("Enter your name: ");
 		String userName = input.nextLine();
 
-		System.out.println("Enter your age: ");
+		System.out.print("Enter your age: ");
 		int age = input.nextInt();
 		input.nextLine();
 
-		System.out.println("Enter your favorite 3 digit number: ");
+		System.out.print("Enter your favorite 3 digit number: ");
 		int favNum = input.nextInt();
 
-		System.out.println("Enter your GPA: ");
+		System.out.print("Enter your GPA: ");
 		double userGPA = input.nextDouble();
+
+
+		//output
+		System.out.print("Welcome " + userName + "!");
+
+		if(age)
 
 	} //end main 
 
